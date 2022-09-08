@@ -1,4 +1,4 @@
-원티드 프리온보딩 프론트앤드 TypeScript 과제로 제출한 코드입니다. [챌린지 관련](https://www.wanted.co.kr/events/pre_challenge_fe_2)
+원티드 프리온보딩 프론트앤드 TypeScript 과제로 제출한 코드입니다. [챌린지 세부사항](https://www.wanted.co.kr/events/pre_challenge_fe_2)
 
 # Install
 
@@ -14,7 +14,6 @@ npm run docs
 or
 yarn docs
 ```
-출처: [jsdoc-boilerplate](https://github.com/pocojang/jsdoc-boilerplate)
 
 # 챌린지 과제 가이드
 | 요구 사항을 구현하지 않고 설계만합니다.
