@@ -33,7 +33,7 @@ const item = {
   /**
    * - 투두를 추가할 수 있습니다.
    * - 내용을 입력하지 않았을 시, 투두를 추가할 수 없습니다.
-   * @param {item} newToDo - 새로운 투두를 담고 있는 Object입니다.
+   * @param {Item} newToDo - 새로운 투두를 담고 있는 Object입니다.
    */
   createToDo(newToDo) {
     // 입력한 내용이 없을 시, 해당 투두는 등록되지 않습니다.
@@ -47,7 +47,7 @@ const item = {
 
   /**
     * - 모든 할 일을 조회합니다.
-    * @return {item[]}
+    * @return {Item[]}
     */
   readAllToDos() {
     return this.toDoList;
@@ -55,7 +55,7 @@ const item = {
   /**
   * - ID#를 기반으로 특정 할 일을 조회할 수 있습니다. 
   * @param {number} [seleteId] - ID#를 기반으로 특정 할 일을 조회하거나, 전체 투두리스트를 조회할 수 있습니다.
-  * @return {item[]}
+  * @return {Item[]}
   */
   readToDo(seleteId) {
     return this.toDoList.filter(({toDoId}) => toDoId === seleteId);
@@ -65,7 +65,7 @@ const item = {
     * - ID를 제외한 모든 속성을 수정할 수 있습니다.
     * - 특정 할 일의 특정 태그를 수정할 수 있습니다.
     * @param {number} id - 해당 ID#의 투두를 조회합니다.
-    * @param {item} newToDo - 새로 입력한 투두의 내용입니다.
+    * @param {Item} newToDo - 새로 입력한 투두의 내용입니다.
     * 
     */
   updateToDo(id, newToDo) {
