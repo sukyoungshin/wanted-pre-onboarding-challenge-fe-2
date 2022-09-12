@@ -1,11 +1,8 @@
-# 챌린지 과제
-원티드 프리온보딩 프론트앤드 챌린지(TypeScript) 과제로 작성한 JSDoc 코드입니다. <br/>
-챌린지 관련 자세한 내용은 [원티드 프리온보딩 챌린지](https://www.wanted.co.kr/events/pre_challenge_fe_2)에서 확인할 수 있습니다. <br/><br/>
-과제 내용은 다음과 같습니다.<br/>
-- JSDoc을 사용하여 요구사항을 설계 및 구현하며, 최종적으로는 ToDo앱을 JSDoc으로 문서화하는 과제입니다. 
-- [JSDoc Boilerplate](https://github.com/pocojang/jsdoc-boilerplate)을 사용하여 최초 환경셋팅을 진행했습니다. 
+## wanted-pre-onboarding-challenge-fe-2
+원티드 프리온보딩 프론트앤드 챌린지(TypeScript) 과제로 작성한 JSDoc 코드입니다. 
+[원티드 프리온보딩 챌린지](https://www.wanted.co.kr/events/pre_challenge_fe_2) <br/>
 
-## Install
+### Install
 
 ```
 npm install
@@ -13,7 +10,7 @@ or
 yarn
 ```
 
-## Build
+### Build
 ```
 npm run docs
 or
@@ -22,7 +19,7 @@ yarn docs
 
 <hr />
 
-## 요구사항
+## Requirement
 - 아래의 Todo 앱 요구사항을 참고하여 필요한 데이터를 모두 모델링한다.
 - 사용되는 모든 함수를 `선언부`만 만든다.
   - 함수 및 클래스의 내부는 구현하지 않습니다.
