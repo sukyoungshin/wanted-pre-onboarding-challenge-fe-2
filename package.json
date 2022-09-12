@@ -2,14 +2,18 @@
 	"name": "wanted-pre-onboarding-challenge-fe-2",
 	"version": "1.0.0",
 	"description": "202209 원티드 프리온보딩 챌린지 2차 과제",
-  "engines": {
-    "node": "16.13.0"
-  },
+	"engines": {
+		"node": "16.13.0"
+	},
 	"main": "index.js",
 	"scripts": {
-		"docs": "jsdoc -c jsdoc.json"
+		"docs": "jsdoc -c jsdoc.json",
+		"deploy": "gh-pages -d docs"
 	},
 	"devDependencies": {
+		"gh-pages": "^4.0.0",
 		"jsdoc": "^3.6.11"
-	}
+	},
+	"private": true,
+	"homepage": "https://sukyoungshin.github.io/wanted-pre-onboarding-challenge-fe-2/"
 }
