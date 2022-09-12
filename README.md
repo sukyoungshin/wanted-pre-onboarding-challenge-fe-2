@@ -17,6 +17,13 @@ or
 yarn docs
 ```
 
+### Deploy
+```
+npm deploy
+or
+yarn deploy
+```
+
 <hr />
 
 ## Requirement
