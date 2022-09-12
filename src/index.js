@@ -3,14 +3,14 @@
 /**
  * 각 투두 아이템에 필요한 형태(Modeling/Shape) 입니다.
  * @constant
- * @typedef {Object} item
+ * @typedef {Object} Item
  * @property {number} id - 각 todo의 ID# 입니다.
  * @property {string} content - 처리해야 하는 일의 내용입니다. (ex. 챌린지 과제하기)
  * @property {boolean} isCompleted - todo의 완료유무를 나타냅니다.
  * @property {string} category - 카테고리를 나타냅니다. (ex. study, exercise, hobby)
  * @property {string[]} [tags] - 해쉬태그처럼 todo를 꾸며주는 속성입니다. (ex. 휴식, 등산, 카페)
  */
-/** @type {item} */
+/** @type {Item} */
 const item = {
   id: 0,
   content: '',
