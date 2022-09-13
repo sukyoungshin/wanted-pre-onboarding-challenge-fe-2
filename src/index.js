@@ -81,7 +81,7 @@ const item = {
 
   /**
     * - ID를 기반으로 특정 할 일을 삭제할 수 있습니다.
-    * @param {number} selectedId - 제거할 투두의 id#
+    * @param {number} selectedId - 제거할 투두의 ID#
     */
   deleteToDo(selectedId) {
     this.toDoList = this.toDoList.filter(({toDoId}) => toDoId !== selectedId);
@@ -89,17 +89,17 @@ const item = {
   /** 
    * - 모든 할 일을 제거할 수 있습니다.
   */
-  deleteAll() {
+  deleteAllToDos() {
     this.toDoList = [];    
   }
 
   // TODO: Tags 삭제 로직구현 필요
   /**
-   * - 특정 할 일의 특정 태그를 삭제할 수 있습니다.
-   */
-   deleteTagsById () {}
-  /**
    * - 특정 할 일의 모든 태그를 제거할 수 있습니다.
    */
   deleteAllTags () {}
+  /**
+   * - 특정 할 일의 특정 태그를 삭제할 수 있습니다.
+   */
+  deleteTagsById () {}
 }
