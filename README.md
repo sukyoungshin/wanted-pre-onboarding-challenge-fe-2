@@ -11,47 +11,47 @@
 - `JSDoc`을 활용해 문서화한다.
 - `GitHub Page`를 활용해 `JSDoc` 정적 페이지를 배포한다.
 
-<details>
-  <summary>Todo 앱 요구사항</summary>
+  <details>
+    <summary>Todo 앱 요구사항</summary>
 
-  ### TODO
+    ### TODO
 
-  ```
-  Todo {
-    아이디(required),
-    내용(required),
-    완료여부(required),
-    카테고리(required),
-    태그들(optional),
-  }
-  ```
+    ```
+    Todo {
+      아이디(required),
+      내용(required),
+      완료여부(required),
+      카테고리(required),
+      태그들(optional),
+    }
+    ```
 
-  #### CREATE
-  - 할 일을 추가할 수 있다.
-  - 내용없이 추가할 수 없다.
+    #### CREATE
+    - 할 일을 추가할 수 있다.
+    - 내용없이 추가할 수 없다.
 
-  #### READ
-  - 모든 할 일을 조회할 수 있다.
-  - ID를 기반으로 특정 할 일을 조회할 수 있다.
+    #### READ
+    - 모든 할 일을 조회할 수 있다.
+    - ID를 기반으로 특정 할 일을 조회할 수 있다.
 
-  #### UPDATE
-  - ID를 제외한 모든 속성을 수정할 수 있다.
-  - 특정 할 일의 특정 태그를 수정할 수 있다.
+    #### UPDATE
+    - ID를 제외한 모든 속성을 수정할 수 있다.
+    - 특정 할 일의 특정 태그를 수정할 수 있다.
 
-  #### DELETE
-  - ID를 기반으로 특정 할 일을 삭제할 수 있다.
-  - 모든 할 일을 제거할 수 있다.
-  - 특정 할 일의 특정 태그를 삭제할 수 있다.
-  - 특정 할 일의 모든 태그를 제거할 수 있다.
+    #### DELETE
+    - ID를 기반으로 특정 할 일을 삭제할 수 있다.
+    - 모든 할 일을 제거할 수 있다.
+    - 특정 할 일의 특정 태그를 삭제할 수 있다.
+    - 특정 할 일의 모든 태그를 제거할 수 있다.
 
-  ### Modeling (Shape)
-  ```
-  Item {
-    property(required),
-    property(optional),
-  }
-  ```  
-</details>
+    ### Modeling (Shape)
+    ```
+    Item {
+      property(required),
+      property(optional),
+    }
+    ```  
+  </details>
 
 ### 2️⃣ 2022-09-05
 1차 과제를 기반으로 설계된 선언부를 실제로 구현합니다. (JavaScript)
@@ -62,6 +62,16 @@
 ### 4️⃣ 2022-09-12
 - 3차 과제를 기반으로 구현된 코드 중 비즈니스 로직과 같은 도메인 영역을 제거한다.
 - TypeScript의 Generic을 활용한다. (필수)
+
+  <details>
+    <summary>과제 힌트</summary>
+
+    ```
+    List<Todo>
+    Model<Todo>
+    Controller<Todo>
+    ```
+  </details>
 
 <br />
 
