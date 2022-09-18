@@ -1,4 +1,4 @@
-import { Item, SelectedId } from "./type";
+import { Item, SelectedId } from "toDo";
 
 const item: Item = {
   id: 0,
