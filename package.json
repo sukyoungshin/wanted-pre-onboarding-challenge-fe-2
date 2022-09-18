@@ -8,11 +8,13 @@
 	"main": "index.js",
 	"scripts": {
 		"docs": "jsdoc -c jsdoc.json",
-		"deploy": "gh-pages -d docs"
+		"deploy": "gh-pages -d docs",
+		"tsc": "npx tsc"
 	},
 	"devDependencies": {
 		"gh-pages": "^4.0.0",
-		"jsdoc": "^3.6.11"
+		"jsdoc": "^3.6.11",
+		"typescript": "^4.8.3"
 	},
 	"private": true,
 	"homepage": "https://sukyoungshin.github.io/wanted-pre-onboarding-challenge-fe-2/"
