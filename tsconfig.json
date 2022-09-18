@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*", "types/index.d.ts"],
+  "include": ["src/**/*", "@types/index.d.ts"],
 
   "compilerOptions": {
     /* Language and Environment */
@@ -8,7 +8,7 @@
     /* Type Checking */
     "strict": true, /* Enable all strict type-checking options. */
     "strictNullChecks": true, /* 구체적인 값이 예상되는 곳에서 null이나 undefined를 사용하려고 하면 에러가 발생합니다. */
-    "typeRoots": ["types"],
+    "typeRoots": ["@types"],
     /* Emit */
     "declaration": true, /* Generate .d.ts files for every TypeScript or JavaScript file inside your project. */
     /* Module */
